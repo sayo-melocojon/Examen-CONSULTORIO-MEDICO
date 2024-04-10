@@ -1,0 +1,349 @@
+@media only screen and (max-width: 1050px) {
+   
+    .ser{
+        padding: 50px 70px 30px 50px;
+        width: 50%;
+    }
+
+    /*Ubicacion*/
+    .ubi{
+        padding: 50px 70px 30px 50px;
+    }
+}
+@media only screen and (max-width: 850px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
+    }
+    .menu a{
+        
+        padding: 0 12px;
+    }
+
+    .main-container{
+        position:relative;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 110px 50px 80px;
+    }
+    .servi{
+        padding: 400px 120px 0px 130px;
+    }
+    .ser{
+        
+    position: relative;
+    
+    padding: 50px 0px 30px 110px;
+    }
+    .servicio{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .servicio2{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    /*Ubicacion*/
+    .ubi{
+        position: relative;
+        padding: 50px 70px 0px 80px;
+        flex-direction: column;
+        height: 50vh;
+    }
+
+    .contacto{
+        padding: 0px 150px 0px 150px;
+    }
+
+    .conta{
+        
+        padding: 0px 20px 0px 20px;
+    }
+    .redes{
+       
+        justify-content:none;
+        align-items: none;
+        flex-direction:row;
+    }
+    .redes a{
+        width: 50px;
+        height: 50px;
+        position: relative;
+    }
+    
+    
+    .footer{
+        padding: 20px 20px 25px 20px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
+    }
+    .menu a{
+        
+        padding: 0 12px;
+    }
+
+    .main-container{
+        position:relative;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 110px 80px 80px;
+    }
+    .servi{
+        padding: 450px 120px 0px 110px;
+    }
+    .ser{
+        
+    position: relative;
+    
+    padding: 50px 120px 30px 90px;
+    }
+    .servicio{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .servicio2{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    /*Ubicacion*/
+    .ubi{
+        position: relative;
+        padding: 50px 70px 0px 80px;
+        flex-direction: column;
+        height: 50vh;
+    }
+    .ubi iframe{
+        width: 90%;
+        height: 90%;
+    }
+    .contacto{
+        padding: 0px 110px 0px 100px;
+    }
+
+    .conta{
+        
+        padding: 0px 20px 0px 20px;
+    }
+    .redes{
+       
+        justify-content:none;
+        align-items: none;
+        flex-direction:row;
+    }
+    .redes a{
+        width: 50px;
+        height: 50px;
+        position: relative;
+    }
+    
+    
+    .footer{
+        padding: 20px 20px 25px 20px;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .container{
+        width: 100%;
+        height: 12vh;
+        flex-direction: column;
+        align-items:center;
+      
+    }
+    
+    
+    .logo{
+        height: 35px;
+        margin-left: 0%;
+    }
+    
+    .logo img{
+        display: block;
+        height: 100%;
+    
+    }
+    
+    .menu li{
+        list-style: none;
+        display: inline-block;
+    }
+    
+    .menu a{
+        font-family: 'Space Mono', monospace;
+        color: black;
+        text-decoration: none;
+        padding: 0px;
+        font-weight: 500;
+        font-size: 18px;
+        transition: all 500ms ease;
+        border-bottom: 4px solid transparent;
+    }
+    .menu a{
+        
+        padding: 0 12px;
+    }
+
+    .main-container{
+        height:57vh;
+        position:relative;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 100px 80px 100px;
+    }
+    .servi{
+        padding: 350px 120px 0px 100px;
+    }
+    .ser{
+        
+    position: relative;
+    
+    padding: 50px 120px 30px 20px;
+    }
+    .servicio{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .servicio2{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    /*Ubicacion*/
+    .ubi{
+        position: relative;
+        padding: 50px 70px 40px 80px;
+        flex-direction: column;
+        height: 50vh;
+    }
+    .ubi iframe{
+        width: 140%;
+        height: 100%;
+    }
+    .contacto{
+        padding: 0px 110px 0px 100px;
+    }
+
+    .conta{
+        
+        padding: 0px 20px 0px 20px;
+    }
+    .redes{
+       
+        justify-content:none;
+        align-items: none;
+        flex-direction:row;
+    }
+    .redes a{
+        width: 50px;
+        height: 50px;
+        position: relative;
+    }
+    
+    
+    .footer{
+        padding: 20px 20px 25px 20px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .logo{
+        height: 35px;
+        margin-left: 0%;
+    }
+    .menu a{
+        
+    font-size: 17px;
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
+    }
+    .menu a{
+        
+        padding: 0 10px;
+    }
+
+    .main-container{
+        position:relative;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 110px 50px 110px;
+    }
+    .servi{
+        padding: 400px 150px 0px 80px;
+    }
+    .ser{
+        
+    position: relative;
+    
+    padding: 50px 100px 30px 5px;
+    }
+    .servicio{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .servicio2{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    /*Ubicacion*/
+    .ubi{
+        position: relative;
+        padding: 50px 70px 0px 80px;
+        flex-direction: column;
+        height: 50vh;
+    }
+    .ubi iframe{
+        width: 140%;
+        height: 90%;
+    }
+
+    .contacto{
+        padding: 0px 150px 0px 70px;
+    }
+
+    .conta{
+        
+        padding: 0px 20px 0px 20px;
+    }
+    .redes{
+       
+        justify-content:none;
+        align-items: none;
+        flex-direction:row;
+    }
+    .redes a{
+        width: 50px;
+        height: 50px;
+        position: relative;
+    }
+    
+    
+    .footer{
+        padding: 20px 20px 25px 20px;
+    }
+}
